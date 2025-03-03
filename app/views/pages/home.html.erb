@@ -1,7 +1,8 @@
 <h1>Pages#home</h1>
 <p>Find me in app/views/pages/home.html.erb</p>
 <% if user_signed_in? %>
-  <p>Welcome, <%= current_user.first_name %></p>
+  <h2>Welcome, <%= current_user.first_name %></h2>
 <% else %>
-  <p>Welcome!</p>
+  <h2>Welcome to our app!!</h2>
+  <p>we hope you love it</p>
 <% end %>
